@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -9,12 +10,21 @@ export default function Home() {
         </h1>
 
         <div className="flex  gap-8 p-8">
-          <Image
-            src="/profile.jpg"
-            alt="profile image"
-            width={200}
-            height={160}
-          />
+          <div className="flex flex-col w-[45rem]">
+            <Image
+              className="mb-4"
+              src="/profile.jpg"
+              alt="profile image"
+              width={200}
+              height={160}
+            />
+            <Link
+              className="text-xs underline"
+              href="/%5BCV%5D%20SeongYeup%20Kim.pdf"
+            >
+              [CV] SeongYeup Kim.pdf
+            </Link>
+          </div>
           <div className="flex flex-col gap-3">
             <p>
               SeongYeup Kim is a M.Ed. candidate in Korean Language Arts at the

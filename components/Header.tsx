@@ -4,60 +4,42 @@ import {
   HoverCardTrigger,
 } from '@/components/ui/hover-card';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = () => {
   return (
     <header className="flex flex-col gap-3 py-3 pb-4 mb-8">
       <div className="flex flex-col items-center gap-4 my-8">
-        <h1 className="text-center text-2xl font-bold">SeongYeup Kim</h1>
+        <Image src="/headerImage.png" alt="header" width={300} height={300} />
         <span>seongyeupkim@gmail.com / +82-10-6206-9746</span>
       </div>
       <nav className="font-bold">
-        <ul className="flex justify-evenly">
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/publications">PUBLICATIONS</Link>
-          </li>
-          <li>
-            <HoverCard openDelay={0}>
-              <HoverCardTrigger>
-                <Link href="#">PROJECT</Link>
-              </HoverCardTrigger>
-              <HoverCardContent>
-                <ul className="flex flex-col gap-3">
-                  <li>
-                    <Link href="/project/police-project">POLICE PROJECT</Link>
-                  </li>
-                  <li>
-                    <Link href="/project/samsung-dreamclass">
-                      Samsung Dreamclass
-                    </Link>
-                  </li>
+        <div className="flex justify-evenly">
+          <Link href="/">Home</Link>
+          <Link href="/publications">PUBLICATIONS</Link>
+          <HoverCard openDelay={0}>
+            <HoverCardTrigger>
+              <Link href="#">PROJECT</Link>
+            </HoverCardTrigger>
+            <HoverCardContent>
+              <div className="flex flex-col gap-3">
+                <Link href="/project/police-project">POLICE PROJECT</Link>
 
-                  <li>
-                    <Link href="/project/ssal">SSAL</Link>
-                  </li>
+                <Link href="/project/samsung-dreamclass">
+                  Samsung Dreamclass
+                </Link>
 
-                  <li>
-                    <Link href="/project/dear">DEAR</Link>
-                  </li>
+                <Link href="/project/ssal">SSAL</Link>
 
-                  <li>
-                    <Link href="/project/Kosaf-HOPE-LADDER">
-                      Kosaf HOPE LADDER
-                    </Link>
-                  </li>
+                <Link href="/project/dear">DEAR</Link>
 
-                  <li>
-                    <Link href="/project/Kosaf-ALS">Kosaf ALS</Link>
-                  </li>
-                </ul>
-              </HoverCardContent>
-            </HoverCard>
-          </li>
-        </ul>
+                <Link href="/project/Kosaf-HOPE-LADDER">Kosaf HOPE LADDER</Link>
+
+                <Link href="/project/Kosaf-ALS">Kosaf ALS</Link>
+              </div>
+            </HoverCardContent>
+          </HoverCard>
+        </div>
       </nav>
     </header>
   );
