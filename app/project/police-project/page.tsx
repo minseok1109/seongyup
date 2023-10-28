@@ -6,10 +6,11 @@ const Page = () => {
   return (
     <div>
       <h1 className="text-2xl font-bold my-4">POLICE PROJECT</h1>
-      <h2 className="text-lg font-bold my-4">
-        Proficient Online Learning Instruction Construct Exploring
+      <h2 className="text-lg my-4">
+        <b>P</b>roficient <b>O</b>nline <b>L</b>earning <b>I</b>nstruction
+        <b>C</b>onstruct <b>E</b>xploring
       </h2>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-4">
         <p className="indent-8">
           The POLICE project(proficient online learning instruction construct
           exploring) is aimed at continuously identifying and tracking the
@@ -54,10 +55,10 @@ const Page = () => {
           className="mx-auto"
           src="/police_process.png"
           alt="police_process"
-          width={1000}
-          height={1000}
+          width={700}
+          height={700}
         />
-        <div className="border-2 flex flex-col p-8 gap-2 border-black w-[1000px] my-4">
+        <div className="border-2 flex flex-col p-8 gap-2 border-black w-[700px] my-4">
           <span className="font-bold">
             Ongoing Project (2023~), now on 1st step
           </span>
@@ -66,7 +67,7 @@ const Page = () => {
             Funded: Seoul Metropolitan Office of Education (Approx. $600)
           </span>
         </div>
-        <div className="border-2 flex flex-col p-8 gap-2 border-black w-[1000px] mb-12">
+        <div className="border-2 flex flex-col p-8 gap-2 border-black w-[700px] mb-12">
           <span className="font-bold">Performed role & Participation</span>
           <ul>
             <li>Designed whole process of project</li>

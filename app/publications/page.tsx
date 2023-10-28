@@ -1,8 +1,8 @@
 type Props = {};
 const Publications = (props: Props) => {
   return (
-    <div>
-      <ul className="flex flex-col gap-4 my-4">
+    <div className={'flex flex-col gap-4'}>
+      <ul className="flex flex-col gap-4 my-12">
         <li>
           <b>Kim, S.</b> (2023). Information acceptance and perspective
           reconstruction study in multiple-text reading – Based on secondary
@@ -25,7 +25,7 @@ const Publications = (props: Props) => {
           Reading Research, 65, 81-109. [In Korean]
         </li>
       </ul>
-      <span>In press</span>
+      <span className="my-4 font-bold">(In press)</span>
       <ul className="flex flex-col gap-4 my-4">
         <li>
           <b>Kim, S.</b>,& Oh, J. (2023). A Study on secondary reader's reading
@@ -34,15 +34,15 @@ const Publications = (props: Props) => {
           [In Korean]
         </li>
       </ul>
-      <span>(In preparation – Finished Writing)</span>
-      <ul className="flex flex-col gap-4 my-4">
+      <span className="font-bold">(In preparation – Finished Writing)</span>
+      <ul className="flex flex-col gap-4 mt-8">
         <li>
-          <b>Kim, S.</b>,& Lee, Y., E, Forzani.(2023). Development and
-          Validation of a Self-Efficacy Assessment Questionnaire for Adolescent
-          Readers’ On-line Reading Ability. [In English]
+          <b>Kim, S.</b>,& Lee, Y., E (2023). Development and Validation of a
+          Self-Efficacy Assessment Questionnaire for Adolescent Readers’ On-line
+          Reading Ability. [In English]
         </li>
       </ul>
-      <ul className="flex flex-col gap-4 my-4">
+      <ul className="flex flex-col gap-4 my-2">
         <li>
           Oh, J., &<b>Kim, S.</b>(2023). A Study on secondary reader's
           self-selected reading. The Korean journal of Literature & Language

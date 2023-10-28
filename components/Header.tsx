@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className="flex flex-col gap-3 py-3 border-b pb-4">
+    <header className="flex flex-col gap-3 py-3 pb-4 mb-8">
       <div className="flex flex-col items-center gap-4 my-8">
         <h1 className="text-center text-2xl font-bold">SeongYeup Kim</h1>
         <span>seongyeupkim@gmail.com / +82-10-6206-9746</span>

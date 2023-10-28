@@ -10,8 +10,7 @@ const Ssal = (props: Props) => {
         <b>T</b>he <b>S</b>eoul <b>S</b>tudent <b>A</b>ssessment <b>o</b>f{' '}
         <b>L</b>iteracy
       </h2>
-      <div className="flex flex-col gap-2">
-        {' '}
+      <div className="flex flex-col gap-4">
         <p className="indent-8">
           SSAL is a project aimed at developing a literacy assessment tool that
           evaluates early and basic literacy levels for each grade group,

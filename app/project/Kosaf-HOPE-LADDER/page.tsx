@@ -26,7 +26,7 @@ const KsoafHopeLadder = () => {
           course of one year.
         </p>
         <p className="indent-8">
-          To be more specific, I was responsible for four 4th~6th grade
+          <b> To be more specific,</b> I was responsible for four 4th~6th grade
           students, consisting of two female students and three male students
           (Yoonhee, Eunseo, Ilhwan, Minseok, Sangjoon). I designed an integrated
           education program that focuses on 'reading texts' in the subjects of
