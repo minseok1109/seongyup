@@ -7,7 +7,7 @@ const Ssal = (props: Props) => {
     <div>
       <h1 className="text-2xl font-bold my-4">SSAL PROJECT</h1>
       <h2 className="my-4">
-        <b>T</b>he <b>S</b>eoul <b>S</b>tudent <b>A</b>ssessment <b>o</b>f{' '}
+        The <b>S</b>eoul <b>S</b>tudent <b>A</b>ssessment of
         <b>L</b>iteracy
       </h2>
       <div className="flex flex-col gap-4">
