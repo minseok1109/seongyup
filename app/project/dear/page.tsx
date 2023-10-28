@@ -5,10 +5,11 @@ import Image from 'next/image';
 const page = () => {
   return (
     <div>
-      <ProjectHeader
-        title="DEAR PROJECT"
-        subtitle="Discrepancy of self-Efficacy Assessment on Reading"
-      />
+      <ProjectHeader title="DEAR PROJECT" />
+      <div>
+        <b>D</b>iscrepancy of self-<b>E</b>fficacy <b>A</b>ssessment on <b>R</b>
+        eading
+      </div>
       <div className="flex flex-col gap-4">
         <p className="indent-8 mt-8">
           The question, 'Are you really good or poor at online reading?' serves
