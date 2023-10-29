@@ -38,7 +38,7 @@ const page = () => {
         &lt;Process of the Project &gt;
       </h1>
       <Image
-        className="mx-auto"
+        className="mx-auto mb-12"
         src="/dear_process.png"
         alt="dear_process"
         width={700}

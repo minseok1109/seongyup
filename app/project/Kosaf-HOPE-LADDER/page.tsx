@@ -5,7 +5,7 @@ import Image from 'next/image';
 const KsoafHopeLadder = () => {
   return (
     <div>
-      <ProjectHeader title="Kosaf Hope Ladder PROJECT" />
+      <ProjectHeader title="KOSAF Hope Ladder PROJECT" />
       <div className="flex flex-col gap-4">
         <p className="indent-8">
           Kosaf(The Korea Student Aid Foundation) collaborates with the Ministry
@@ -49,7 +49,7 @@ const KsoafHopeLadder = () => {
       <div className="flex flex-col items-center">
         <div className="border-2 flex flex-col p-8 gap-2 border-black w-[1000px] my-4">
           <span className="font-bold">Information of Project</span>
-          <span>Participated in 2019~2021(Dec.)</span>
+          <span>Participated in 2016~2017(Jan.)</span>
           <span>Project Leader: SeongYeup Kim</span>
           <span>
             Funded: The Korea Student Aid Foundation (Approx. $1,600){' '}

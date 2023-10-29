@@ -52,7 +52,7 @@ const Page = () => {
           &lt;Process of the Project &gt;
         </h1>
         <Image
-          className="mx-auto"
+          className="mx-auto mb-12"
           src="/police_process.png"
           alt="police_process"
           width={700}

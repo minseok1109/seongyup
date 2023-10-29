@@ -18,10 +18,7 @@ export default function Home() {
               width={200}
               height={160}
             />
-            <Link
-              className="text-xs underline"
-              href="/%5BCV%5D%20SeongYeup%20Kim.pdf"
-            >
+            <Link className="underline font-bold" href="/%5BCV%5D%20SeongYeup%20Kim.pdf">
               [CV] SeongYeup Kim.pdf
             </Link>
           </div>
