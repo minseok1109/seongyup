@@ -33,7 +33,7 @@ const Header = () => {
 
                 <Link href="/project/dear">DEAR</Link>
 
-                <Link href="/project/Kosaf-HOPE-LADDER">Kosaf HOPE LADDER</Link>
+                <Link href="/project/Kosaf-HOPE-LADDER">KOSAF HOPE LADDER</Link>
 
                 <Link href="/project/Kosaf-ALS">Kosaf ALS</Link>
               </div>
