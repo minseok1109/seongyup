@@ -48,7 +48,7 @@ const Page = () => {
         </div>
       </div>
       <div className="flex flex-col items-center">
-        <h1 className="text-center text-2xl font-bold">
+        <h1 className="text-center text-2xl font-bold mb-12">
           &lt;Process of the Project &gt;
         </h1>
         <Image

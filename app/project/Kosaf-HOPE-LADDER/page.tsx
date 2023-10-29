@@ -43,8 +43,8 @@ const KsoafHopeLadder = () => {
         </p>
       </div>
       <div className="flex items-center gap-2 justify-center my-8">
-        <Image src="/kosaf1.jpg" width={400} height={400} alt={'kosaf'} />
-        <Image src="/kosaf2.jpg" width={400} height={400} alt={'kosaf'} />
+        <Image src="/kosaf1.jpg" width={400} height={600} alt={'kosaf'} />
+        <Image src="/ksaf2.jpeg" width={400} height={400} alt={'kosaf'} />
       </div>
       <div className="flex flex-col items-center">
         <div className="border-2 flex flex-col p-8 gap-2 border-black w-[1000px] my-4">

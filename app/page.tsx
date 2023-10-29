@@ -128,7 +128,7 @@ export default function Home() {
           <ul className="flex justify-start gap-48 mb-8">
             <span>2021~2022</span>
             <div className="flex flex-col gap-2">
-              <li>
+              <li className="font-bold">
                 Undergraduate Teaching Assistant Scholarships (Spring, Fall)
               </li>
               <li>Andong National University, Seoul, Republic of Korea</li>
@@ -141,7 +141,7 @@ export default function Home() {
           <ul className="flex justify-start gap-[9.3rem] mb-8">
             <span>2019~2021(Dec.)</span>
             <div className="flex flex-col gap-2">
-              <li>
+              <li className="font-bold">
                 Low SES group Adolescent Learning Support Project (Educational
                 Equity)
               </li>
@@ -156,7 +156,9 @@ export default function Home() {
           <ul className="flex justify-start gap-[9.3rem] mb-8">
             <span>2016~2017(Jan.)</span>
             <div className="flex flex-col gap-2">
-              <li>Multicultural Student Education Mentoring (Hope Ladder)s</li>
+              <li className="font-bold">
+                Multicultural Student Education Mentoring (Hope Ladder)s
+              </li>
               <li>The Korea Student Aid Foundation, Republic of Korea</li>
               <li> $ 1,612.34 (As of March 2023)</li>
             </div>
@@ -164,7 +166,9 @@ export default function Home() {
           <ul className="flex justify-start gap-48 mb-8">
             <span>2016~2021</span>
             <div className="flex flex-col gap-2">
-              <li>Academic-grade Scholarships (Spring, Fall)</li>
+              <li className="font-bold">
+                Academic-grade Scholarships (Spring, Fall)
+              </li>
               <li>Andong National University, Seoul, Republic of Korea</li>
               <li> $ 5,907.63 (As of March 2023) </li>
             </div>

@@ -34,7 +34,7 @@ const page = () => {
           profiles.
         </p>
       </div>
-      <h1 className="text-center text-2xl font-bold my-8">
+      <h1 className="text-center text-2xl font-bold mt-8 mb-12">
         &lt;Process of the Project &gt;
       </h1>
       <Image
