@@ -51,7 +51,7 @@ const page = () => {
             Ongoing Project (2023~), now on 1st step
           </span>
           <span>
-            Project Leader: : SeongYeup Kim, Cowork: Dr. Yongjun Le, Dr. Elena
+            Project Leader: : SeongYeup Kim, Cowork: Dr. Yongjun Lee & Dr. Elena
             Forzani
           </span>
           <span>Funded: Searching…</span>
