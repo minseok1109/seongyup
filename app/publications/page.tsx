@@ -28,10 +28,9 @@ const Publications = (props: Props) => {
       <span className="my-4 font-bold">(In press)</span>
       <ul className="flex flex-col gap-4 my-4">
         <li>
-          <b>Kim, S.</b>,& Oh, J. (2023). A Study on secondary reader's reading
-          experience survey – Focusing on perceptions of negative reading
-          experience. The Korean journal of Literature & Language Education, 45.
-          [In Korean]
+          <b>Kim, S.</b>,& Lee, Y., Forzani, E. (2023). Development and Validation of a
+          Self-Efficacy Assessment Questionnaire for Adolescent Readers’ On-line
+          Reading Ability. [In English]
         </li>
       </ul>
       <span className="font-bold">(In preparation – Finished Writing)</span>

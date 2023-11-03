@@ -50,7 +50,10 @@ const page = () => {
           <span className="font-bold">
             Ongoing Project (2023~), now on 1st step
           </span>
-          <span>Project Leader: : SeongYeup Kim, Cowork: Dr. Yongjun Lee</span>
+          <span>
+            Project Leader: : SeongYeup Kim, Cowork: Dr. Yongjun Le, Dr. Elena
+            Forzani
+          </span>
           <span>Funded: Searching…</span>
         </div>
         <div className="border-2 flex flex-col p-8 gap-2 border-black w-[700px] mb-12">
